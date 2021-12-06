@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+   <title>Design</title>
+</head>
+
+<body>
+   <div class="page" id="page">
+
+      <header class="header" id="header">
+         <div class="header__container container">
+
+            <a href="#" class="header__logo logo">
+               <img class="logo__img" src="img/header/logo.svg" alt="logo" >
+            </a>
+
+            <div class="header__left">
+               <nav class="header__menu menu">
+                  <a data-goto="#about" href="#" class="menu__link">About us</a>               
+                  <a data-goto="#services" href="#" class="menu__link">Services</a>
+                  <a data-goto="#form" href="#" class="menu__link">Partners</a>
+                  <a data-goto="#contacts" href="#" class="menu__link">Contacts</a>
+               </nav>
+            </div>
+
+            <div class="header__right">
+               <div class="header__right-phone phone">
+                  <a class="phone__link" href="tel:15338678380">
+                     +1 533 867 8380
+                  </a>
+                  <a class="phone__link-icon" href="tel:15338678380">
+                     <img class="phone__icon" src="img/header/phone.svg" alt="phone-icon">
+                  </a>
+               </div>
+
+               <div class="header__burger">
+                  <div class="menu__icon">
+                     <span></span>
+                  </div>
+               </div>
+            </div>
+
+         </div> <!-- /container -->
+      </header>
+
+      <!-- /section-intro ---------------------------->
+      <section class="intro" id="intro">
+         <div class="intro__container container">
+            <div class="intro__wrapper">
+               
+               <div class="intro__offer">
+                  <h1 class="intro__title _anim-items _anim-no-hide">
+                     Interior Design 
+                  </h1>
+                  <p class="intro__descr _anim-items _anim-no-hide">
+                     tell me where  you live and i will tell you who you are
+                  </p>
+               </div>
+   
+               <!--- Swiper ------------------------------------------------->
+               <!-- Slider main container -->
+               <div class="intro-slider swiper _anim-items _anim-no-hide">
+                  <!-- Additional required wrapper -->
+                  <div class="intro-slider__wrapper swiper-wrapper">
+                     <!-- Slides -->
+                     <div class="intro-slider__slide swiper-slide">
+                        <img class="intro-slider__img" src="img/section-intro/swiper/slide-1.jpg" alt="slide-1">
+                     </div>
+                     <div class="intro-slider__slide swiper-slide">
+                        <img class="intro-slider__img" src="img/section-intro/swiper/slide-2.jpg" alt="slide-2">
+                     </div>
+                     <div class="intro-slider__slide swiper-slide">
+                        <img class="intro-slider__img" src="img/section-intro/swiper/slide-3.jpg" alt="slide-3">
+                     </div>
+                  </div>
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+               
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+               
+                 >
+               </div>
+               <!--- /Swiper ------------------------------------------------>
+
+               <div class="intro-aside _anim-items _anim-no-hide">
+                  <a class="intro-aside__link" href="#">
+                     <img class="intro-aside__icon" src="img/section-intro/facebook.svg" alt="facebook">
+                  </a>
+
+                  <a class="intro-aside__link" href="#">
+                     <img class="intro-aside__icon" src="img/section-intro/youtube.svg" alt="facebook">
+                  </a>
+
+                  <a class="intro-aside__link" href="#">
+                     <img class="intro-aside__icon" src="img/section-intro/instagram.svg" alt="facebook">
+                  </a>
+               </div>   
+
+            </div> <!-- intro__wrapper -->
+
+            
+           <div class="intro-bottom _anim-items _anim-no-hide">
+              <a class="intro-bottom__link _anim-show" href="#">
+               See our projects
+              </a>
+           </div>
+
+           <div class="intro-button _anim-items _anim-no-hide">
+              <div class="intro-button__wrapper">
+                 <button class="intro-button__prev"></button>
+                 <button class="intro-button__next"></button>
+              </div>
+           </div>
+
+         
+         </div> <!-- intro__container -->
+
+         
+      </section>
+      <!-- /section-intro ---------------------------->
+
+
+      <!-- section-about ---------------------------->
+      <section class="about" id="about">
+         <div class="about__container container">
+            <div class="about__offer _anim-items _anim-no-hide">
+               <div class="offer-left _anim-show _anim-no-hide">
+                  <h2 class="offer-left__title title">
+                     About us
+                  </h2>
+                  <p class="offer-left__subtitle subtitle">
+                     From idea to implementation 
+                  </p>
+               </div>
+               <div class="offer-right _anim-show _anim-no-hide">
+                  <p class="offer-right__descr">
+                     Design is a synthesis of
+                     aesthetics and creativity with technical
+                     and engineering solutions 
+                  </p>
+               </div>
+            </div>
+
+            <div class="about__banner banner _anim-items _anim-no-hide">
+               <img class="banner__img" src="img/section-about/banner-1.jpg" alt="banner-1">
+            </div>
+            
+            <div class="about__label label _anim-items _anim-no-hide">
+               Comfort - Esthetics
+            </div>
+         </div>
+
+
+         <!-- section-about-cadrs ---------------------------->
+            <div class="about__cards">
+               <div class="about__cards-container container">
+                  
+                  <div class="about__row row-about">
+
+                     <div class="row-about__column _anim-items _anim-no-hide">
+                        <div class="row-about__body">
+                           <h3 class="row-about__title">
+                              Optimal solution
+                           </h3>
+                           <div class="row-about__photo">
+                              <img class="row-about__img" src="img/section-about/cards/card-1.jpg" alt="card-1">
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="row-about__column row-about__column--right _anim-items _anim-no-hide">
+                        <div class="row-about__descr">
+                           <p class="row-about__text">
+                              We will listen to all residents and find the optimal solution for each member of your family, even for a cat and a ficus tree.
+                           </p>
+                        </div>
+                     </div>
+
+                  </div>
+
+                  <div class="about__row row-about row-about--rewerse">
+
+                     <div class="row-about__column row-about__column--order2 row-about__column--right _anim-items _anim-no-hide">
+                        <div class="row-about__body">
+                           <h3 class="row-about__title">
+                              Gompetent distribution of areas 
+                           </h3>
+                           <div class="row-about__photo">
+                              <img class="row-about__img" src="img/section-about/cards/card-2.jpg" alt="card-1">
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="row-about__column row-about__column--order1 _anim-items _anim-no-hide">
+                        <div class="row-about__descr">
+                           <p class="row-about__text">
+                              When creating an interior design project, our specialists think through in detail all the ergonomics, presentability and aesthetic components of the room. All this allows you to create a holistic concept of the design project.                           </p>
+                        </div>
+                     </div>
+
+                  </div>
+
+                  <div class="about__row row-about">
+
+                     <div class="row-about__column _anim-items _anim-no-hide">
+                        <div class="row-about__body">
+                           <h3 class="row-about__title">
+                              Functional space 
+                           </h3>
+                           <div class="row-about__photo">
+                              <img class="row-about__img" src="img/section-about/cards/card-3.jpg" alt="card-1">
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="row-about__column row-about__column--right _anim-items _anim-no-hide">
+                        <div class="row-about__descr">
+                           <p class="row-about__text">
+
+                              As a result, you will get a modern and comfortable interior that will provide maximum convenience.                           </p>
+                        </div>
+                     </div>
+
+                  </div>
+
+                  <div class="about__button">
+                     <button class="about__btn">
+                        Show more
+                     </button>
+                  </div>
+
+               </div> 
+            </div>   
+         <!-- /section-about-cadrs ---------------------------->
+
+      </section>
+      <!-- /section-about ---------------------------->
+
+      
+      <!-- section-services ---------------------------->
+      <section class="services" id="services">
+        
+         <div class="services__container container">
+            <h2 class="services__title title _anim-items _anim-no-hide">
+               Services
+            </h2>
+         </div>
+
+         <div class="services__poster poster _anim-items _anim-no-hide">
+            <div class="poster__body">
+               <div class="poster__background">
+                  <img class="poster__img" src="img/section-services/services-1.jpg" alt="services-1" >
+               </div>
+            </div>
+
+            <a class="poster__btn" href="#">
+               Design
+            </a>
+         </div>
+
+         <div class="services__poster poster _anim-items _anim-no-hide">
+            <div class="poster__body">
+               <div class="poster__background">
+                  <img class="poster__img" src="img/section-services/services-2.jpg" alt="services-2.jpg" >
+               </div>
+            </div>
+
+            <a class="poster__btn" href="#">
+               Stylling
+            </a>
+         </div>
+
+         <div class="services__poster poster _anim-items _anim-no-hide">
+            <div class="poster__body">
+               <div class="poster__background">
+                  <img class="poster__img" src="img/section-services/services-3.jpg" alt="services-3" >
+               </div>
+
+               <a class="poster__btn" href="#">
+                  Construction
+               </a>
+            </div>
+
+           
+         </div>
+
+      </section>
+      <!-- /section-services ---------------------------->
+
+
+      <!-- section-form ---------------------------->
+      <section class="form" id="form">
+         <div class="form__container container">
+
+            <div class="form__row">
+
+               <div class="column-form"> 
+                  <div class="column-form__offer _anim-items _anim-no-hide">
+                     <p class="column-form__text column-form__text--big">
+                     Want to know, 
+                     </p>
+                     <p class="column-form__text column-form__text--small">
+                        how can
+                        improve your 
+                        interior?
+                     </p>
+                  </div>
+               </div>
+
+               <div class="form__column _anim-items _anim-no-hide">
+                  <form class="form__body" action="#" >
+
+                     <label class="form__label " for="input">
+                        <p class="form__label--big">
+                           Fill in the data 
+                        </p>
+                        <p class="form__label--small">
+                           and we will contact you
+                        </p>
+                     </label>
+
+                     <input class="form__input _req" placeholder ="Your name" id="input" type="text">
+                     <input class="form__input _req" placeholder ="Email" id="input" type="email">
+                     <textarea class="form__textarea" name="Message" placeholder ="Message" id="message" cols="30" rows="1"></textarea>
+                     <button class="form__btn" type="submit">
+                        To get the contsultstion
+                     </button>
+                  </form>
+               </div>
+               
+            </div>
+
+         </div>
+      </section>
+      <!-- /section-form ---------------------------->
+
+
+      <!-- section-contacts ---------------------------->
+      <section class="contacts" id="contacts">
+         <div class="contacts__container container">
+
+            <div class="contacts__wrapper">
+
+               <h3 class="contacts__title title _anim-items _anim-no-hide">
+                  Contacts
+               </h3>
+   
+               <div class="contacts__item _anim-items _anim-no-hide">
+                  <p class="contacts__phone">
+                     Phone
+                  </p>
+                  <a class="contacts__number" href="tel:15338678380">
+                     +1 533 867 8380
+                  </a>
+               </div>
+   
+               <div class="contacts__item contacts__item--second _anim-items _anim-no-hide">
+                  <p class="contacts__schedule">
+                     Schedule 
+                  </p>
+                  <p class="contacts__date">
+                     Mon - Fri 9:00 - 18:00 
+                  </p>      
+               </div>
+   
+               <div class="contacts__social _anim-items _anim-no-hide">
+
+                  <div class="contacts__social-item contacts__social-item--instagram">
+                     <a class="contacts__social-link" href="#">
+                        <img class="contacts__social-icon" src="img/section-intro/instagram.svg" alt="instagram">
+                     </a>
+                  </div>
+                  <div class="contacts__social-item contacts__social-item--youtube">
+                     <a class="contacts__social-link" href="#">
+                        <img class="contacts__social-icon" src="img/section-intro/youtube.svg" alt="youtube">
+                     </a>
+                  </div>
+                  <div class="contacts__social-item contacts__social-item--facebook">
+                     <a class="contacts__social-link" href="#">
+                        <img class="contacts__social-icon" src="img/section-intro/facebook.svg" alt="facebook">
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </section>
+      <!-- /section-contacts ---------------------------->
+
+
+      <footer class="footer" id="footer">
+         <div class="footer__container container">
+            <p class="footer__copiright">
+               Ⓒ 2021 - Kharkiv - All rights reserved
+            </p>
+         
+         </div>
+      </footer>
+
+
+   </div> <!-- /page -->
+
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+   <script src="js/headhesive.min.js"></script>
+   <script src="js/script.js"></script>
+
+</body>
+</html>
+
+
