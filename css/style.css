@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*-- Шрифты ---------------------------------------*/
-/*@font-face {
+@font-face {
   font-family: "Montserrat";
   src: url("fonts/Montserrat-Thin.eot");
   src: local("☺"), url("fonts/Montserrat-Thin.woff") format("woff"), url("fonts/Montserrat-Thin.ttf") format("truetype"), url("fonts/Montserrat-Thin.svg") format("svg");
@@ -27,7 +27,7 @@
   src: local("☺"), url("fonts/Montserrat-Medium.woff") format("woff"), url("fonts/Montserrat-Medium.ttf") format("truetype"), url("fonts/Montserrat-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
-}*/
+}
 /*-- /Шрифты ---------------------------------------*/
 /* Normalize ========================================================================== */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -49,7 +49,6 @@ html {
   */
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
 }
 
 /**
@@ -1615,6 +1614,11 @@ body._lock {
   padding-bottom: 45%;
   margin: 0 -15px 0 -15px;
 }
+@media (max-width: 767.98px) {
+  .banner {
+    padding-bottom: 70%;
+  }
+}
 @media (min-width: 620px) {
   .banner {
     opacity: 0;
@@ -2100,6 +2104,11 @@ body._lock {
   transition: transform 0.3s ease;
   transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
+@media (max-width: 767.98px) {
+  .poster__background {
+    padding: 30%;
+  }
+}
 .poster__background::after {
   content: "";
   position: absolute;
@@ -2151,19 +2160,20 @@ body._lock {
   .poster__btn {
     font-size: 40px;
     padding: 20px 35px;
+    top: 35%;
   }
 }
 @media (max-width: 620px) {
   .poster__btn {
     font-size: 30px;
     padding: 15px 25px;
-    top: 30%;
   }
 }
 @media (max-width: 480px) {
   .poster__btn {
     font-size: 24px;
     padding: 10px 25px;
+    top: 34%;
   }
 }
 .poster__btn:hover {
